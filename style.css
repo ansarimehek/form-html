@@ -1,0 +1,22 @@
+body {
+   /* background-image: url(images/images.jpg); */
+    background-color: f2e8cf;
+}
+
+#exapmle {
+    border: 10px;
+    padding: 40px;
+    background: url(images/images.jpg);
+    background-repeat: no-repeat;
+    background-origin: content-box;
+}
+
+.form-container {
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+}
+
+form {
+    width: 50%
+}
